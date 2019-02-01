@@ -1,0 +1,62 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: #bababa;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 85%;
+}
+
+#buttonsNav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 1em;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 1% 0;
+  user-select: none;
+}
+
+#min5,
+#min15,
+#min60,
+#minsChoice {
+  border: 1px solid red;
+  cursor: pointer;
+  user-select: none;
+  flex: 1;
+  text-align: center;
+}
+
+input {
+  color: #bababa;
+  background-color: black;
+}
+
+#timerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  font-size: 15vw;
+  user-select: none;
+}
+
+#backAt {
+  text-align: center;
+  font-size: 5vw;
+  user-select: none;
+}
